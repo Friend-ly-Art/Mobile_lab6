@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="520" viewBox="0 0 500 520">
+  <title>Монстера в терракотовом горшке</title>
+  <ellipse cx="250" cy="479" rx="128" ry="15" fill="#cfdac5"/>
+  <g fill="none" stroke="#45684b" stroke-width="7" stroke-linecap="round">
+    <path d="M247 392 C240 283 281 178 300 70"/>
+    <path d="M249 387 C236 292 181 190 116 145"/>
+    <path d="M252 382 C271 303 327 253 386 202"/>
+    <path d="M251 363 C222 323 163 280 101 277"/>
+  </g>
+  <g>
+    <path d="M279 197 C221 173 219 117 242 78 C259 49 302 34 325 54 C364 39 389 87 376 129 C365 163 319 191 279 197Z" fill="#315e43"/>
+    <path d="M279 188 L317 68 M288 153 L255 120 M299 119 L345 92" fill="none" stroke="#719166" stroke-width="3"/>
+    <path d="M316 93 L337 53 L346 60 L325 100Z M305 124 L355 96 L363 106 L303 136Z M290 155 L247 143 L244 133 L295 145Z" fill="#e8eedf"/>
+    <path d="M194 276 C132 279 77 247 63 201 C48 160 70 123 100 130 C119 95 164 105 190 133 C225 168 227 234 194 276Z" fill="#4f7950"/>
+    <path d="M190 264 L101 147 M161 224 L99 215 M137 192 L151 138" fill="none" stroke="#a4b287" stroke-width="3"/>
+    <path d="M138 197 L62 185 L62 196 L144 207Z M162 229 L87 230 L99 242 L171 240Z M148 197 L177 123 L184 131 L158 210Z" fill="#e8eedf"/>
+    <path d="M284 335 C284 270 324 210 368 195 C409 177 446 199 440 229 C470 256 444 299 412 321 C369 350 318 350 284 335Z" fill="#5e8657"/>
+    <path d="M294 330 L421 222 M336 294 L330 251 M366 269 L408 283" fill="none" stroke="#b0bd92" stroke-width="3"/>
+    <path d="M356 285 L414 311 L423 304 L364 277Z M383 261 L447 260 L448 251 L390 253Z M340 303 L322 225 L314 235 L330 310Z" fill="#e8eedf"/>
+    <path d="M194 350 C154 373 96 358 77 328 C63 302 79 280 100 282 C119 251 160 264 179 282 C198 301 201 325 194 350Z" fill="#3c6949"/>
+    <path d="M184 343 L100 294" fill="none" stroke="#93a67b" stroke-width="3"/>
+  </g>
+  <path d="M169 389 H331 L310 475 Q250 497 190 475Z" fill="#be815f"/>
+  <path d="M183 396 H201 L217 481 L190 475Z" fill="#cf9673"/>
+  <rect x="160" y="375" width="180" height="31" rx="10" fill="#d59a75"/>
+  <path d="M177 385 H320" stroke="#e8b591" stroke-width="3" stroke-linecap="round"/>
+</svg>

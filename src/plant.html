@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#28644c">
+  <title>Карточка растения — Мои растения</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">мр</span>Мои растения</a>
+    <nav aria-label="Основная навигация"><ul class="nav-list"><li><a href="index.html" aria-current="page">Мои растения</a></li><li><a href="calendar.html">Календарь</a></li><li><a href="profile.html">Профиль</a></li></ul></nav>
+  </div></header>
+  <main class="container">
+    <noscript><p>Включите JavaScript для отображения растений и расписания ухода.</p></noscript>
+    <a class="back" href="index.html">← Вся коллекция</a>
+ <p id="missing" hidden>Растение не найдено. Вернитесь в коллекцию.</p>
+ <section id="detail" aria-labelledby="plant-name"><article class="plant-card">
+ <div class="plant-art"><img id="plant-image" src="assets/monstera.svg" width="500" height="520" alt="Монстера"></div>
+ <div class="plant-info"><div class="title-row"><div><p class="eyebrow">КОМНАТНОЕ РАСТЕНИЕ</p><h1 id="plant-name">Монстера</h1><p class="muted" id="plant-latin"></p></div><span class="badge" id="plant-room"></span></div>
+ <dl><div class="care-row"><dt>Полив</dt><dd id="interval"></dd></div><div class="care-row"><dt>Следующий полив</dt><dd id="next"></dd></div><div class="care-row"><dt>Последний полив</dt><dd id="last"></dd></div></dl>
+ <div><h2>Мои заметки</h2><p class="muted" id="plant-note"></p></div>
+ <div class="actions"><button class="button" id="water" type="button">Полито</button><button class="button secondary" id="edit" type="button">Редактировать</button></div></div></article>
+ <section id="edit-panel" class="panel" hidden aria-labelledby="edit-title"><h2 id="edit-title">Редактирование растения</h2><form id="edit-form">
+ <div class="field"><label for="name">Название</label><input id="name" name="name" required maxlength="60"></div>
+ <div class="field"><label for="room">Комната</label><input id="room" name="room" maxlength="40"></div>
+ <div class="field"><label for="days">Интервал полива в днях</label><input id="days" name="days" type="number" min="1" max="365" step="1" required></div>
+ <div class="field"><label for="note">Заметка</label><textarea id="note" name="note" maxlength="2000"></textarea></div>
+ <div class="actions"><button class="button" type="submit">Сохранить</button><button class="button secondary" id="cancel" type="button">Отмена</button></div></form></section></section>
+    <p id="notice" class="notice" role="status" aria-live="polite"></p>
+  </main>
+  <footer><div class="container footer-inner"><p>Мои растения · Немного заботы каждый день</p><p data-user-name>Анна Смирнова</p></div></footer>
+</body>
+</html>

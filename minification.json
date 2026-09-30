@@ -1,0 +1,37 @@
+[
+  {
+    "file": "calendar.html",
+    "before": 1750,
+    "after": 1683
+  },
+  {
+    "file": "css/reset.css",
+    "before": 379,
+    "after": 236
+  },
+  {
+    "file": "css/style.css",
+    "before": 5834,
+    "after": 5073
+  },
+  {
+    "file": "index.html",
+    "before": 2202,
+    "after": 2126
+  },
+  {
+    "file": "js/app.js",
+    "before": 6975,
+    "after": 6826
+  },
+  {
+    "file": "plant.html",
+    "before": 3461,
+    "after": 3368
+  },
+  {
+    "file": "profile.html",
+    "before": 2197,
+    "after": 2130
+  }
+]

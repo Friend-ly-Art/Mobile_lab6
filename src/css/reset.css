@@ -1,0 +1,8 @@
+/* Базовый reset вместо внешней зависимости normalize.css. */
+*, *::before, *::after { box-sizing: border-box; }
+body, h1, h2, h3, p, ul, dl, dd { margin: 0; }
+ul { padding: 0; list-style: none; }
+button, input, textarea { font: inherit; }
+img { display: block; max-width: 100%; }
+button { cursor: pointer; }
+[hidden] { display: none !important; }

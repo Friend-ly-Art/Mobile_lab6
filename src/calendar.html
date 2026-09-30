@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#28644c">
+  <title>Календарь ухода — Мои растения</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">мр</span>Мои растения</a>
+    <nav aria-label="Основная навигация"><ul class="nav-list"><li><a href="index.html">Мои растения</a></li><li><a href="calendar.html" aria-current="page">Календарь</a></li><li><a href="profile.html">Профиль</a></li></ul></nav>
+  </div></header>
+  <main class="container">
+    <noscript><p>Включите JavaScript для отображения растений и расписания ухода.</p></noscript>
+    <section aria-labelledby="heading"><div class="page-heading"><p class="eyebrow">ЗАБОТА ПО РАСПИСАНИЮ</p><h1 id="heading">Календарь ухода</h1><p class="subtitle">Ближайшие поливы — от ранних дат к поздним.</p><p id="done" class="badge"></p></div><div id="tasks" class="tasks"></div></section>
+    <p id="notice" class="notice" role="status" aria-live="polite"></p>
+  </main>
+  <footer><div class="container footer-inner"><p>Мои растения · Немного заботы каждый день</p><p data-user-name>Анна Смирнова</p></div></footer>
+</body>
+</html>
